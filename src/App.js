@@ -15,7 +15,21 @@ class App extends Component {
   }
   render(){
     return (
-      <p>Hello Earth</p>
+      <div className="container">
+        <div className="jumbotron">
+          <h1 className="display-4">Blog Posts</h1>
+        </div>
+        <div className="card">
+          <div className="card-header">
+            Featured
+          </div>
+          <div className="card-body">
+            <h5 className="card-title">Special Title</h5>
+            <p className="supporting-text">The supporting text would be here</p>
+            <a href="localhost:3000" className="btn btn-primary">Links Nowhere</a>
+          </div>
+        </div>
+      </div>
     );
   }
   
