@@ -1,5 +1,19 @@
-.App {
+.container {
+  padding: 10px;
+}
+
+.jumbotron {
   text-align: center;
+}
+
+.card {
+  margin-bottom: 10px;
+}
+
+.card-header {
+  color: white; 
+  background-color:steelblue;
+  font-weight: bold;
 }
 
 .App-logo {
@@ -36,3 +50,4 @@
     transform: rotate(360deg);
   }
 }
+
